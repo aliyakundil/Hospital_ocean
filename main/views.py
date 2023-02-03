@@ -1,2 +1,5 @@
 from django.shortcuts import render
-from models import *
+from .models import *
+
+def show_hospital(request):
+    return render(request, 'main/show_hospital.html')
