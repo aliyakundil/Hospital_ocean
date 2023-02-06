@@ -9,7 +9,7 @@ class CustomBooleanField(models.BooleanField):
         return int(value) # return 0/1
 
 class Hospital(models.Model):
-    okpo = models.ForeignKey('Okpo', unique=True, on_delete=models.CASCADE, verbose_name='ОКПО')
+    okpo = models.ForeignKey('Okpo', on_delete=models.CASCADE, verbose_name='ОКПО')
     employees = models.CharField(max_length=100, verbose_name='Сотрудники')
     public_private = CustomBooleanField(default=True, verbose_name='Государственная')
 
@@ -72,7 +72,7 @@ class Nurse(models.Model):
     pin_passport = models.CharField(max_length=14, verbose_name='ПИН-КОД паспорта')
     age = models.IntegerField(verbose_name='Возраст')
     phone_number = models.CharField(max_length=200, verbose_name='Номер телефона')
-    patients = models.ManyToManyField('Patients', verbose_name='Пациенты')
+    patients = models.ForeignKey('Patients', verbose_name='Пациенты', on_delete=models.CASCADE)
 
     class Meta:
         verbose_name = 'Медсестра'
@@ -90,7 +90,7 @@ class Patients(models.Model):
     age = models.IntegerField(verbose_name='Возраст')
     phone_number = models.CharField(max_length=200, verbose_name='Номер телефона')
     diagnosis = models.TextField(verbose_name='Причина обращения в больницу')
-    complaint = models.ForeignKey('Chief_Physician', on_delete=models.CASCADE, verbose_name='Жалоба')
+    complaint = models.CharField(max_length=1000, verbose_name='Жалоба', null=True)
 
     class Meta:
         verbose_name = 'Пациент'
