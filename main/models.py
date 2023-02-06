@@ -29,7 +29,7 @@ class Okpo(models.Model):
 class Therapist(models.Model):
     okpo = models.ForeignKey('Hospital', on_delete=models.CASCADE, verbose_name='ОКПО')
     direction = models.DateTimeField(max_length=200, verbose_name='Направление')
-    therapist_surgeon = models.BooleanField(default=True, verbose_name='Терапевт')
+    therapist_surgeon = CustomBooleanField(default=True, verbose_name='Терапевт')
     name = models.CharField(max_length=200, verbose_name='Ф.И.О.')
     pin_passport = models.CharField(max_length=14, verbose_name='ПИН-КОД паспорта')
     age = models.IntegerField(verbose_name='Возраст')
