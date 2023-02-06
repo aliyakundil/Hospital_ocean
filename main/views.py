@@ -2,7 +2,12 @@ from django.shortcuts import render
 from .models import *
 
 def show_hospital(request):
-    return render(request, 'main/show_hospital.html')
+    hospital = Hospital.objects.all()
+    c_physician = Chief_Physician.objects.all()
+    therapist = Therapist.objects.all()
+    nurse = Nurse.objects.all()
+    patients = Patients.objects.all()
+    return render(request, 'main/show_hospital.html', {'hospital':hospital,'c_physician':c_physician,'therapist':therapist, 'nurse':nurse, 'patients':patients})
 
 def bd(request):
     return render(request, 'main/bd.html')

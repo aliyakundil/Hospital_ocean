@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="521e3ced-46dc-446a-be1c-85d52929321b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main/migrations/0007_alter_therapist_therapist_surgeon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/main/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/main/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/main/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/main/doctors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/main/price.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/main/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/main/testimonials.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/bd.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/bd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/doctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/doctors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/price.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/price.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/show_hospital.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/show_hospital.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/testimonials.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/testimonials.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
