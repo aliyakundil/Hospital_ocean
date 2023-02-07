@@ -57,6 +57,21 @@
                      </div>
                   </div>
                </div>
+               <div class="info-inner">
+                  {% if request.user.is_authenticated %}
+                     <span class="icontop"><i aria-hidden="true"></i></span>
+                     <span class="iconcont"> {{ user.username }}<a data-scroll href="{% url 'logout' %}">Выйти</a></span>
+                  </div>
+                  {% else %}
+                  <div class="info-inner">
+                     <span class="icontop"><i aria-hidden="true"></i></span>
+                     <span class="iconcont"><a data-scroll href="{% url 'register' %}">Регистрация</a></span>
+                  </div>
+                  <div class="info-inner">
+                     <span class="icontop"><i aria-hidden="true"></i></span>
+                     <span class="iconcont"><a data-scroll href="{% url 'login' %}">Войти</a></span>
+                  </div>
+               {% endif %}
             </div>
          </div>
          <div class="header-bottom wow fadeIn">
@@ -152,34 +167,10 @@
       </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            {% block content %}
-
-            {% endblock %}
-
-
+      {% block content %}
+      {% endblock %}
 
       {% block services %}
-
       {% endblock %}
 
       <footer id="footer" class="footer-area wow fadeIn">
