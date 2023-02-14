@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="521e3ced-46dc-446a-be1c-85d52929321b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/register/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/register/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/register/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/show_hospital.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/show_hospital.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
     </list>
@@ -45,12 +43,13 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/IT MegaLab/Django/django_To_Do/main/templates/main",
+    "last_opened_file_path": "D:/IT MegaLab/Django/django_To_Do/main",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT MegaLab\Django\django_To_Do\main" />
       <recent name="D:\IT MegaLab\Django\django_To_Do\main\templates\main" />
       <recent name="D:\IT MegaLab\Django\django_To_Do\main\templates" />
     </key>
